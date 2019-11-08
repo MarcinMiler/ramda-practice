@@ -1,0 +1,5 @@
+import * as R from 'ramda'
+
+console.log(
+    R.mergeAll([{ x: 1 }, { y: 2 }, { z: 3 }]), // {x: 1, y: 2, z: 3}
+)
